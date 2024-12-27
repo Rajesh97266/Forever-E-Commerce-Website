@@ -12,6 +12,7 @@ import PlaceOrder from "./pages/PlaceOrder"
 
 import { Routes , Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         <Route path ="/place-order" element={<PlaceOrder/>}/>
 
       </Routes>
+      <Footer/>
     </div>
   )
 }
